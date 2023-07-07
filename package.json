@@ -1,0 +1,28 @@
+{
+  "name": "basic-typescript",
+  "version": "1.0.0",
+  "description": "Learn Basic Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "Choirul Adam",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.7",
+    "@babel/preset-typescript": "^7.22.5",
+    "@jest/globals": "^27.5.1",
+    "@types/jest": "^29.5.2",
+    "babel-jest": "^18.0.0",
+    "jest": "^25.0.0",
+    "or": "^0.2.0",
+    "ts-jest": "^27.0.3",
+    "typescript": "^5.1.6"
+  }
+}

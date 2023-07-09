@@ -1,6 +1,6 @@
 {
-  "include": ["src/**/*"],
-  "exclude": ["tests/**/*"],
+  "include": ["src/**/*", "tests/**/*"],
+  // "exclude": ["tests/**/*"],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
